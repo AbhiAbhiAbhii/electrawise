@@ -22,7 +22,7 @@ export default function Form() {
         email,
         location
        } 
-        // console.log(formData)
+         console.log(formData)
        fetch ("/api/submit", {
         method: 'POST',
         body: JSON.stringify(formData),
@@ -34,9 +34,9 @@ export default function Form() {
         if(res.status < 300) {
             router.replace("/thank-you");
             console.log("received");
-            //  setTimeout(() => {
-            //      router.replace("/")
-            //  }, 3000);
+             setTimeout(() => {
+                 router.replace("/")
+             }, 3000);
         }
         else {
             console.log("error")
