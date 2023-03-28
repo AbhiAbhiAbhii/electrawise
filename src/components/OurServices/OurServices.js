@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 
 export default function OurServices() {
@@ -46,7 +47,7 @@ export default function OurServices() {
                   }
                 </div>
                 <div className="ourServicesBtnContainer">
-                  <div className='ourServicesBtn inter-sb'><a href=''>Talk to us</a></div>
+                  <div className='inter-sb' style={{marginTop:'1rem'}}><a className="ourServicesBtn" href='tel:+91 884858200'Y>Talk to us</a></div>
                 </div>  
               </div>
             </div>
