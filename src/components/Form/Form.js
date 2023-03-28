@@ -29,18 +29,24 @@ export default function Form() {
         headers: {
             'Content-Type' : 'application/json'
         }
-       }).then((res) => {
+       })
+       .then((res) => {
         if(res.status < 300) {
             router.replace("/thank-you");
             console.log("received");
-            // setTimeout(() => {
-            //     router.replace("/")
-            // }, 3000);
+            //  setTimeout(() => {
+            //      router.replace("/")
+            //  }, 3000);
         }
         else {
             console.log("error")
         }
        })
+        // setEmail('');
+        // setFullName('');
+        // setPhoneNumber('');
+        // setLocation('');
+
     }
     // Function to validate email 
     const [fullNameFocused, setfullNameFocused] = useState(false);
