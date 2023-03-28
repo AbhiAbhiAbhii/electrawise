@@ -108,7 +108,7 @@ input:invalid[focused="true"]{
 /* Hero */
 .hero {
   padding: 8rem 6rem;
-  background: url('/bg-solarPanel.png') no-repeat center center;
+  background: url('/bg-solarPanel.webp') no-repeat center center;
   background-size: cover;
 }
 .heroWrapper {
