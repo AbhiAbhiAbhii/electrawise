@@ -30,12 +30,12 @@ export default function Form() {
             'Content-Type' : 'application/json'
         }
        }).then((res) => {
-        console.log("received");
         if(res.status < 300) {
             router.replace("/thank-you");
-            setTimeout(() => {
-                router.replace("/")
-            }, 3000);
+            console.log("received");
+            // setTimeout(() => {
+            //     router.replace("/")
+            // }, 3000);
         }
         else {
             console.log("error")
