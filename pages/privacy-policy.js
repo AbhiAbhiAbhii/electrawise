@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
                 </p>
                     <ul className="inter-r">
                         <li >Account means a unique account created for You to access our Service or parts of our Service.</li>
-                        <li>Company (referred to as either &apos;the Company&apos;, &apos;We&apos;, &apos;Us&apos; or &apos;Our&apos; in this Agreement) refers to OLAM FESTIVAL PRIVATE LIMITED, TC 15/1716, FIRST FLOOR, PARVATHY MANGALAM, VAZHUTHACAUD SASTHAMANGALAM P.O.</li>
+                        <li>Company (referred to as either 'the Company', 'We', 'Us' or 'Our' in this Agreement) refers to OLAM FESTIVAL PRIVATE LIMITED, TC 15/1716, FIRST FLOOR, PARVATHY MANGALAM, VAZHUTHACAUD SASTHAMANGALAM P.O.</li>
                         <li>Cookies are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
                         <li>Country refers to: Kerala, India</li>
                         <li>Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
@@ -73,7 +73,7 @@ export default function PrivacyPolicy() {
                 </p>
 
                 <p>
-                    Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+                    Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
                 </p>
 
                 <p>
@@ -91,12 +91,12 @@ export default function PrivacyPolicy() {
 
                 <ul>
                     <li>Cookies or Browser Cookies. A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
-                    <li>Flash Cookies. Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &apos;Where can I change the settings for disabling, or deleting local shared objects?&apos; available at: <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-<br/>flash.html#main_Where_can_<br/>I_change_the_settings_<br/>for_disabling__or_deleting<br/>_local_shared_objects_</a></li>
+                    <li>Flash Cookies. Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read 'Where can I change the settings for disabling, or deleting local shared objects?' available at: <a href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_">https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-<br/>flash.html#main_Where_can_<br/>I_change_the_settings_<br/>for_disabling__or_deleting<br/>_local_shared_objects_</a></li>
                     <li>Web Beacons. Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
                 </ul>
 
                 <p>
-                    Cookies can be &apos;Persistent&apos; or &apos;Session&apos; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.
+                    Cookies can be 'Persistent' or 'Session' Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.
                 </p>
 
                 <p>
@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                     <li>To provide and maintain our Service, including to monitor the usage of our Service.</li>
                     <li>To manage Your Account: to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</li>
                     <li>For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</li>
-                    <li>To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application&apos;s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</li>
+                    <li>To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</li>
                     <li>To provide You with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</li>
                     <li>To manage Your requests: To attend and manage Your requests to Us.</li>
                     <li>For business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</li>
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
                 <p class="miniheader">Transfer of Your Personal Data</p>
 
                 <p>
-                    Your information, including Personal Data, is processed at the Company&apos;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+                    Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
                 </p>
 
                 <p>
@@ -206,19 +206,19 @@ export default function PrivacyPolicy() {
                     The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
                 </p>
 
-                <p class="miniheader">Children&apos;s Privacy</p>
+                <p class="miniheader">Children's Privacy</p>
                 <p>
                     Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. <br/>If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.
                 </p>
 
                 <p>
-                    If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent&apos;s consent before We collect and use that information.
+                    If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
                 </p>
 
                 <p class="miniheader">Links to Other Websites</p>
 
                 <p>
-                    Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of every site You visit.
+                    Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
                 </p>
 
                 <p>
@@ -231,7 +231,7 @@ export default function PrivacyPolicy() {
                 </p>
 
                 <p>
-                    We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &apos;Last updated&apos; date at the top of this Privacy Policy.
+                    We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the 'Last updated' date at the top of this Privacy Policy.
                 </p>
 
                 <p>
