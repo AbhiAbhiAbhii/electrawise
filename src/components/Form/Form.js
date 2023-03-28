@@ -37,6 +37,9 @@ export default function Form() {
                 router.replace("/")
             }, 3000);
         }
+        else {
+            console.log("error")
+        }
        })
     }
     // Function to validate email 
@@ -64,7 +67,7 @@ export default function Form() {
                 <form  id="form1" method="POST" className='form'>
                     <div>
                         <label className='label inter-r'>Full Name*</label>
-                        <input value={fullName} id="fullName" onChange={e => setFullName(e.target.value)}  required='true' onBlur={focusName} focused={fullNameFocused.toString()} pattern='^[A-za-z]+$' name='fullname' type='text' placeholder='Full Name' />
+                        <input value={fullName} id="fullName" onChange={e => setFullName(e.target.value)}  required='true' onBlur={focusName} focused={fullNameFocused.toString()} pattern='^[A-z a-z]+$' name='fullname' type='text' placeholder='Full Name' />
                         <div className="error"><p>Enter a valid Full Name</p></div>
                     </div> 
                     <div>

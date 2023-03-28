@@ -34,4 +34,5 @@ export default async function submit(req, res) {
         res.status(201).json({message:"Data successfully exported to sheets"})
     }
     res.status(200).send("Success")
+    console.log(req.body)
 }
