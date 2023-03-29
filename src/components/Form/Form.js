@@ -29,7 +29,7 @@ export default function Form() {
             'Content-Type' : 'application/json'
         }
        }).then((res) => {
-        if(res.status < 600) {
+        if(res.status < 500) {
             router.replace("/thank-you");
             console.log("received");
                 setTimeout(() => {
