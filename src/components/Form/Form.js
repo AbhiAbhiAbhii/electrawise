@@ -29,18 +29,19 @@ export default function Form() {
         headers: {
             'Content-Type' : 'application/json'
         }
-       }).then((res) => {
-        if(res.status < 300) {
-            router.reload("/thank-you");
-            console.log("received");
-                setTimeout(() => {
-                    router.reload("/")
-                }, 3000);
-        }
-        else {
-            console.log("error")
-        }
-         })
+       })
+    //    .then((res) => {
+    //     if(res.status < 300) {
+    //         router.reload("/thank-you");
+    //         console.log("received");
+    //             setTimeout(() => {
+    //                 router.reload("/")
+    //             }, 3000);
+    //     }
+    //     else {
+    //         console.log("error")
+    //     }
+    //      })
         // .then((res) => {
         //  if(res.status < 300) {
         //      router.replace("/thank-you");
@@ -59,6 +60,11 @@ export default function Form() {
         //  setPhoneNumber('');
         //  setLocation('');
         // formData('form1').reset();
+        setEmail('');
+        setFullName('');
+        setPhoneNumber('');
+        setLocation('');
+         router.push("/thank-you");
 
     }
     // Function to validate email 
