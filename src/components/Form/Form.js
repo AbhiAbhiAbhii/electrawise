@@ -64,7 +64,7 @@ export default function Form() {
         setFullName('');
         setPhoneNumber('');
         setLocation('');
-         router.push("/thank-you");
+         router.reload("/");
 
     }
     // Function to validate email 
