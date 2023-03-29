@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import Footer from '../src/components/Footer/Footer'
 import NavBar from '../src/components/NavBar/NavBar'
 import '../styles/globals.css'

@@ -28,7 +28,18 @@ export default function Form() {
         headers: {
             'Content-Type' : 'application/json'
         }
-       })
+       }).then((res) => {
+        if(res.status < 600) {
+            router.replace("/thank-you");
+            console.log("received");
+                setTimeout(() => {
+                    router.replace("/")
+                }, 3000);
+        }
+        else {
+            console.log("error")
+        }
+         })
     //    .then((res) => {
     //     if(res.status < 300) {
     //         router.replace("/thank-you");
