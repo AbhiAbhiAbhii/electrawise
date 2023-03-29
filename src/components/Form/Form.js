@@ -42,29 +42,10 @@ export default function Form() {
     //         console.log("error")
     //     }
     //      })
-        // .then((res) => {
-        //  if(res.status < 300) {
-        //      router.replace("/thank-you");
-        //      console.log("received");
-        //       setTimeout(() => {
-        //           router.replace("/")
-        //       }, 3000);
-        //  }
-        //  else {
-        //      console.log("error")
-        //  }
-        // })
-        // formData('form1').reset();
-        //  setEmail('');
-        //  setFullName('');
-        //  setPhoneNumber('');
-        //  setLocation('');
-        // formData('form1').reset();
-       
          router.push("/thank-you");
         setTimeout(() => {
             router.push("/");
-         }, [3000]) 
+         }, [2500]) 
 
     }
     // Function to validate email 
