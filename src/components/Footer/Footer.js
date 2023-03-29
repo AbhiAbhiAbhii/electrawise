@@ -33,8 +33,8 @@ export default function Footer() {
                 <div className="contactTop">
                   <div className="footerIcon"><img src='/support.svg' alt='' style={{height:'100%',width:'100%',objectFit:'cover'}} /></div><div className='inter-m'><p>Contact</p></div>
                 </div>
-                <div className='contact inter-r'><p style={{color:'grey'}}>+91 8848407006</p></div>
-                <div className='contact inter-r'><p style={{color:'grey'}}>electrawiseenergyinfo@gmail.com</p></div>
+                <div className='contact inter-r'><a href="tel:+91 8848407006" style={{color:'grey'}}>+91 8848407006</a></div>
+                <div className='contact inter-r'><a href="mailto:electrawiseenergyinfo@gmail.com" style={{color:'grey'}}>electrawiseenergyinfo@gmail.com</a></div>
               </div>
             </div>
             
