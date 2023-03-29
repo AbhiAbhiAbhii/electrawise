@@ -1,8 +1,10 @@
+import Header from "../src/components/Header/Header";
 
 
 export default function PrivacyPolicy() {
     return(
         <>
+        <Header />
         <section class="legacySection" style={{background:'#FFF'}}>
             <div class="legacyWrapper">
             <div class="inter-b legacyMainText">
