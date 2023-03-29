@@ -14,7 +14,6 @@ export default function Form() {
     
     const handleSubmit = async (e) => {
 
-        e.preventDefault();
         console.log(e)
        const formData = {
         fullName,
@@ -30,22 +29,23 @@ export default function Form() {
             'Content-Type' : 'application/json'
         }
        })
-       .then((res) => {
-        if(res.status < 300) {
-            router.replace("/thank-you");
-            console.log("received");
-             setTimeout(() => {
-                 router.replace("/")
-             }, 3000);
-        }
-        else {
-            console.log("error")
-        }
-       })
-        // setEmail('');
-        // setFullName('');
-        // setPhoneNumber('');
-        // setLocation('');
+    //    .then((res) => {
+    //     if(res.status < 300) {
+    //         router.replace("/thank-you");
+    //         console.log("received");
+    //          setTimeout(() => {
+    //              router.replace("/")
+    //          }, 3000);
+    //     }
+    //     else {
+    //         console.log("error")
+    //     }
+    //    })
+        //  setEmail('');
+        //  setFullName('');
+        //  setPhoneNumber('');
+        //  setLocation('');
+        // formData('form1').reset();
 
     }
     // Function to validate email 
@@ -80,7 +80,7 @@ export default function Form() {
                         <label className='label inter-r'>Phone Number*</label>
                         <div className="errorLabel" style={{display:'flex'}}>
                             <div className="INDIAContainer" style={{display:'flex',alignItems:'center',justifyContent:'center',cursor:'pointer',borderTopLeftRadius:'.4rem',borderBottomLeftRadius:'.4rem'}}><p className='INDIA inter-m'>IN +91</p></div>
-                            <div className="inputMob"><input id="phoneNumber" value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)} style={{borderBottomLeftRadius:'0',borderTopLeftRadius:'0',borderLeft:'0'}} required pattern='/^[0-9]{10}$/'  name='phonenumber' type='text' placeholder='Phone Number' /></div>
+                            <div className="inputMob"><input id="phoneNumber" value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)} style={{borderBottomLeftRadius:'0',borderTopLeftRadius:'0',borderLeft:'0'}} required   name='phonenumber' type='text' placeholder='Phone Number' /></div>
                         </div>
                     </div>
                     <div>
