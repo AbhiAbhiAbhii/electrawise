@@ -14,6 +14,7 @@ export default function Form() {
     
     const handleSubmit = async (e) => {
 
+        e.preventDefault();
         console.log(e)
        const formData = {
         fullName,
@@ -28,32 +29,31 @@ export default function Form() {
         headers: {
             'Content-Type' : 'application/json'
         }
-       })
-    //    .then((res) => {
-    //     if(res.status < 200) {
-    //         router.replace("/thank-you");
-    //         console.log("received");
-    //             setTimeout(() => {
-    //                 router.replace("/")
-    //             }, 3000);
-    //     }
-    //     else {
-    //         console.log("error")
-    //     }
-    //      })
-         formData.reset();
-    //    .then((res) => {
-    //     if(res.status < 300) {
-    //         router.replace("/thank-you");
-    //         console.log("received");
-    //          setTimeout(() => {
-    //              router.replace("/")
-    //          }, 3000);
-    //     }
-    //     else {
-    //         console.log("error")
-    //     }
-    //    })
+       }).then((res) => {
+        if(res.status < 300) {
+            router.reload("/thank-you");
+            console.log("received");
+                setTimeout(() => {
+                    router.reload("/")
+                }, 3000);
+        }
+        else {
+            console.log("error")
+        }
+         })
+        // .then((res) => {
+        //  if(res.status < 300) {
+        //      router.replace("/thank-you");
+        //      console.log("received");
+        //       setTimeout(() => {
+        //           router.replace("/")
+        //       }, 3000);
+        //  }
+        //  else {
+        //      console.log("error")
+        //  }
+        // })
+        // formData('form1').reset();
         //  setEmail('');
         //  setFullName('');
         //  setPhoneNumber('');
