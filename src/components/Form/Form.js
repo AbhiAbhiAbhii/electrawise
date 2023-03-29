@@ -60,11 +60,11 @@ export default function Form() {
         //  setPhoneNumber('');
         //  setLocation('');
         // formData('form1').reset();
-        setEmail('');
-        setFullName('');
-        setPhoneNumber('');
-        setLocation('');
-         router.reload("/");
+       
+         router.push("/thank-you");
+        setTimeout(() => {
+            router.push("/");
+         }, [3000]) 
 
     }
     // Function to validate email 
