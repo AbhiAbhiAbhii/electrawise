@@ -48,7 +48,7 @@ export default function Form() {
          router.push("/thank-you");
         setTimeout(() => {
             router.push("/");
-         }, [2500]) 
+         }, [3500]) 
 
     }
     // Function to validate email 
