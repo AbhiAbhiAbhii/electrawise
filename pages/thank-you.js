@@ -17,10 +17,12 @@ export default function Thanks() {
       });
       gtag('config', 'AW-11117880810');
 
-      gtag('event', 'conversion', {'send_to': 'AW-11117880810/k1qHCNjA7JQYEOrLtbUp'});
 
       `}
 
+        </Script>
+        <Script strategy="afterInteractive" id="google-analytics-script">
+          {`gtag('event', 'conversion', {'send_to': 'AW-11117880810/k1qHCNjA7JQYEOrLtbUp'});`}
         </Script>
         <section className="thankYou">
           <div className="thankYouContent">
