@@ -7,6 +7,8 @@ export default function Form() {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
     const [location, setLocation] = useState('');
+    const [date, setDate] = useState('')
+
     
 
 
@@ -20,7 +22,8 @@ export default function Form() {
         fullName,
         phoneNumber,
         email,
-        location
+        location,
+        date
        } 
          console.log(formData)
        fetch ("/api/submit", {
@@ -64,13 +67,21 @@ export default function Form() {
         setLocationFocused(true);
     }
 
+    function generateDate() {
+        var currentTime = new Date();                
+        document.getElementbyId("dateHidden").value = curdate;
+        var curdate = currentTime.getDate();
+        return true; 
+    }
+    console.log(generateDate);
+
         
 
     return(
         <div className='formBox' id="form">
             <div className='formWrapper'>
                 <div className='formTitle inter-sb'><p>Talk to our Solar Experts</p></div>
-                <form  id="form1" method="POST" className='form'>
+                <form  id="form1" action="JavaScript:generateDate()" method="POST" className='form'>
                     <div>
                         <label className='label inter-r'>Full Name*</label>
                         <input value={fullName} id="fullName" onChange={e => setFullName(e.target.value)}  required='true' onBlur={focusName} focused={fullNameFocused.toString()} pattern='^[A-z a-z]+$' name='fullname' type='text' placeholder='Full Name' />
@@ -92,6 +103,9 @@ export default function Form() {
                     <label className='label inter-r'>Location*</label>
                     <input id="location" value={location} onChange={e => setLocation(e.target.value)} required onBlur={focusLocation} focused={locationFocused.toString()} name='location' type='text' placeholder='Preferred city for installation' />
                     <div className="error"><p>Enter Location</p></div>
+                    </div>
+                    <div>
+                    <input onSubmit={generateDate} type="hidden" name="Language" id="dateHidden" onChange={e => setDate(e.target.value)} />
                     </div>
                     <button disabled={disabled} onClick={handleSubmit} value="Submit" style={{cursor:'pointer'}} className='formBtn inter-sb'>Get Started</button>
                 </form>

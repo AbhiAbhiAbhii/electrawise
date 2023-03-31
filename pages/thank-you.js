@@ -1,20 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head"
 import Script from "next/script"
 export default function Thanks() {
     return(
 
-      <><Script
+      <>
+      <Script
         strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-C6LZG46DLG`} /><Script id="google-analytics-script" strategy="afterInteractive">
           {`
 
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      gtag('config', 'AW-11117880810');
+      gtag('config', 'G-C6LZG46DLG' , {
+        page_path: window.location.pathname,
+      });
       gtag('event', 'conversion', {'send_to': 'AW-11117880810/k1qHCNjA7JQYEOrLtbUp'});
 
       `}
 
-        </Script><section className="thankYou">
+        </Script>
+        <section className="thankYou">
           <div className="thankYouContent">
             <div className="thanksContainer">
               <img style={{ height: '100%', width: '100%', objectFit: 'contain' }} src="/thanks.svg" alt="" />
