@@ -12,10 +12,11 @@ export default function Thanks() {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-11117880810');
       gtag('config', 'G-C6LZG46DLG' , {
         page_path: window.location.pathname,
       });
+      gtag('config', 'AW-11117880810');
+
       gtag('event', 'conversion', {'send_to': 'AW-11117880810/k1qHCNjA7JQYEOrLtbUp'});
 
       `}
