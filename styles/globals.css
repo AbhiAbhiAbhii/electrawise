@@ -3242,10 +3242,6 @@ li {
   align-items: center;
   padding-bottom: 1.4rem;
 }
-
-.formText {
-}
-
 label {
   display: block;
   line-height: 1.8;
@@ -3256,12 +3252,7 @@ label {
   letter-spacing: -2%;
   
 }
-
-
-
 /* The Close Button */
-  
-
 .close {
   width: 6rem;
   height: 4rem;

@@ -19,7 +19,6 @@ export default function App({ Component, pageProps }) {
       gtag('config', 'G-C6LZG46DLG' , {
         page_path: window.location.pathname,
       });
-      gtag('config', 'AW-11117880810');
 
 
       `}
@@ -28,6 +27,8 @@ export default function App({ Component, pageProps }) {
       <NavBar />
       <Component {...pageProps} />
       <Footer />
+      {/* gtag('config', 'AW-11117880810'); */}
+
     </>
   )
 }

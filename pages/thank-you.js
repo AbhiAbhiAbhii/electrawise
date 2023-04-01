@@ -16,10 +16,8 @@ export default function Thanks() {
         page_path: window.location.pathname,
       });
       gtag('config', 'AW-11117880810');
-
-
+      
       `}
-
         </Script>
         <Script strategy="afterInteractive" id="google-analytics-script">
           {`gtag('event', 'conversion', {'send_to': 'AW-11117880810/k1qHCNjA7JQYEOrLtbUp'});`}
